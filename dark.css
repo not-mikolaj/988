@@ -1,0 +1,387 @@
+html {
+    background-color: #181a1b !important;
+}
+html {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: #181a1b;
+}
+html, body {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #404400 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}
+
+/* Modified CSS */
+html {
+    background-color: rgb(19, 21, 22) !important;
+}
+html,
+body {
+    background-color: rgb(19, 21, 22);
+}
+html,
+body {
+    border-color: rgb(106, 98, 87);
+    color: rgb(216, 212, 207);
+}
+a {
+    color: rgb(61, 165, 255);
+}
+table {
+    border-color: rgb(111, 103, 91);
+}
+::placeholder {
+    color: rgb(178, 171, 161);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: rgb(51, 54, 0) !important;
+    color: rgb(216, 212, 207) !important;
+}
+::-webkit-scrollbar {
+    background-color: rgb(26, 28, 29);
+    color: rgb(173, 166, 156);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(55, 60, 62);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(70, 75, 78);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(58, 62, 65);
+}
+::-webkit-scrollbar-corner {
+    background-color: rgb(19, 21, 22);
+}
+::selection {
+    background-color: rgb(0, 62, 136) !important;
+    color: rgb(216, 212, 207) !important;
+}
+:root {
+    --darkreader-bg--darkreader-neutral-background: #0f1111;
+    --darkreader-text--darkreader-neutral-text: #cdc8c2;
+    --darkreader-selection-background: #004daa;
+    --darkreader-selection-text: #e8e6e3;
+}
+section#hero .hero-content {
+    color: rgb(216, 212, 207);
+}
+section#hero .btn {
+    background-color: rgb(30, 33, 34);
+    color: rgb(216, 212, 207);
+    text-decoration-color: initial;
+}
+section#hero .btn:hover {
+    background-color: rgb(51, 55, 58);
+}
+header {
+    background-color: rgb(24, 26, 27);
+}
+h1 {
+    color: rgb(193, 188, 180);
+}
+nav ul {
+    list-style-image: initial;
+}
+nav ul li a {
+    text-decoration-color: initial;
+    color: rgb(193, 188, 180);
+}
+section h2 {
+    color: rgb(193, 188, 180);
+}
+footer {
+    background-color: rgb(30, 33, 34);
+    color: rgb(216, 212, 207);
+}
+section#self-help {
+    background-color: rgb(24, 26, 27);
+}
+section#self-help h2 {
+    color: rgb(193, 188, 180);
+}
+section#self-help p {
+    color: rgb(178, 172, 162);
+}
+section#self-help h3 {
+    color: rgb(193, 188, 180);
+}
+section#self-help p.resource-description {
+    color: rgb(178, 172, 162);
+}
+section#self-help a {
+    background-color: rgb(30, 33, 34);
+    color: rgb(216, 212, 207);
+    text-decoration-color: initial;
+}
+section#self-help a:hover {
+    background-color: rgb(51, 55, 58);
+}
+section#get-help {
+    background-color: rgb(24, 26, 27);
+}
+section#get-help h2 {
+    color: rgb(193, 188, 180);
+}
+section#get-help p {
+    color: rgb(178, 172, 162);
+}
+section#get-help h3 {
+    color: rgb(193, 188, 180);
+}
+section#get-help p.help-description {
+    color: rgb(178, 172, 162);
+}
+section#get-help a {
+    color: rgb(193, 188, 180);
+    text-decoration-color: initial;
+}
+section#get-help a:hover {
+    text-decoration-color: initial;
+}
+section#about {
+    background-color: rgb(22, 24, 25);
+}
+section#about h2 {
+    color: rgb(193, 188, 180);
+}
+section#about p {
+    color: rgb(178, 172, 162);
+}
+section#about cite {
+    color: rgb(163, 156, 144);
+}
+section#about .facts h3 {
+    color: rgb(193, 188, 180);
+}
+section#about .facts li {
+    color: rgb(178, 172, 162);
+}
+.vimvixen-hint {
+    background-color: rgb(98, 66, 0) !important;
+    border-color: rgb(170, 138, 15) !important;
+    color: rgb(237, 221, 175) !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-text--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: rgb(12, 46, 58) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-bg--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: rgb(2, 26, 33) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: rgb(8, 8, 8) !important;
+}
+.tou-uknfeu {
+    background-color: rgb(28, 18, 2) !important;
+}
+.tou-6i3zyv {
+    background-color: rgb(20, 70, 86) !important;
+}
+section#hero .hero-content {
+    color: rgb(232, 230, 227);
+}
+section#hero .btn {
+    background-color: rgb(38, 42, 43);
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+}
+section#hero .btn:hover {
+    background-color: rgb(64, 69, 72);
+}
+header {
+    background-color: rgb(30, 32, 33);
+}
+h1 {
+    color: rgb(200, 195, 188);
+}
+nav ul {
+    list-style-image: initial;
+}
+nav ul li a {
+    text-decoration-color: initial;
+    color: rgb(200, 195, 188);
+}
+section h2 {
+    color: rgb(200, 195, 188);
+}
+footer {
+    background-color: rgb(38, 42, 43);
+    color: rgb(232, 230, 227);
+}
+section#self-help {
+    background-color: rgb(30, 32, 33);
+}
+section#self-help h2 {
+    color: rgb(200, 195, 188);
+}
+section#self-help p {
+    color: rgb(178, 172, 162);
+}
+section#self-help h3 {
+    color: rgb(200, 195, 188);
+}
+section#self-help p.resource-description {
+    color: rgb(178, 172, 162);
+}
+section#self-help a {
+    background-color: rgb(38, 42, 43);
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+}
+section#self-help a:hover {
+    background-color: rgb(64, 69, 72);
+}
+section#get-help {
+    background-color: rgb(30, 32, 33);
+}
+section#get-help h2 {
+    color: rgb(200, 195, 188);
+}
+section#get-help p {
+    color: rgb(178, 172, 162);
+}
+section#get-help h3 {
+    color: rgb(200, 195, 188);
+}
+section#get-help p.help-description {
+    color: rgb(178, 172, 162);
+}
+section#get-help a {
+    color: rgb(200, 195, 188);
+    text-decoration-color: initial;
+}
+section#get-help a:hover {
+    text-decoration-color: initial;
+}
+section#about {
+    background-color: rgb(27, 30, 31);
+}
+section#about h2 {
+    color: rgb(200, 195, 188);
+}
+section#about p {
+    color: rgb(178, 172, 162);
+}
+section#about cite {
+    color: rgb(157, 148, 136);
+}
+section#about .facts h3 {
+    color: rgb(200, 195, 188);
+}
+section#about .facts li {
+    color: rgb(178, 172, 162);
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: #032029 !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #0a0a0a !important;
+}
+.tou-uknfeu {
+    background-color: #231603 !important;
+}
+.tou-6i3zyv {
+    background-color: #19576c !important;
+}
